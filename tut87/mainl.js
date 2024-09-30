@@ -9,4 +9,9 @@ fs.writeFile('asif.txt','is a good boy',()=>{
         console.log(error, data.toString());
     })
 })
+
+    fs.appendFile('asif.txt', 'too',(e,d)=>{
+        console.log(d);
+    
+})
 console.log('Ending');
